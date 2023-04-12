@@ -6,6 +6,7 @@
     --white: #fff;
     --black: #000;
     --purple:#6663E9;
+    --darkpurple:#5654D1;
     --lightwhite:#eeeff1;
     --lightblack:#27292E;
 
@@ -128,3 +129,179 @@ Divider Logo
     text-align: center;
     font-size: 3.5rem;
 }
+
+/* ============
+    House Cards 
+============*/
+
+.house-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.house-card-1{
+    
+}
+
+.card-img-1{
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.house-card-1-detail{
+    background-color: var(--white);
+    border-radius: 20px;
+    width: 21vw;
+    height: 16vh;
+    color: var(--lightblack);
+    position: relative;
+    bottom: 4em;
+    left: 0.7em;
+}
+
+.house-card-1-detail > h2{
+    opacity: 0.8;
+    margin-left: 1em;
+    padding-top: 1em;
+}
+
+.house-card-1-detail > h3{
+    color: var(--purple);
+    margin-top: 1em;
+    margin-left: 1em;
+    display: inline-block;
+}
+
+.house-card-1-detail > a{
+    color: var(--white);
+    background-color: var(--purple);
+    padding: 1em 2em;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-left: 5em;
+    position: relative;
+    bottom: 1.5em;
+}
+
+.card-1{
+   margin-right: 4em;
+}
+
+.card-2{
+    margin-top: 4em;
+    margin-right: 4em;
+}
+
+.card-3{
+    margin-top: 8em;
+}
+
+.card-4{
+    margin-top: 8em;
+}
+
+.card-5{
+    margin-top: 4em;
+    margin-left: 4em;
+}
+
+.card-6{
+    margin-left: 4em;
+}
+
+
+/* =============
+Modern Cards
+============= */
+
+.modern-card-1{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.feat-img-1{
+    height: 500px;
+    width: 513px;
+    object-fit: cover;
+    border-radius: 30px;
+    background-image: url(../assets/Icons/featureImageBg1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-1{
+    margin-left: 3em;
+}
+
+.right-dialogue{
+   color: var(--black);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========
+Subscribe 
+===========*/
+
+.subscribe{
+    color: var(--white);
+    width: 90vw;
+    height: 56vh;
+    border-radius: 30px;
+    background-color: var(--purple);
+    text-align: center;
+    margin-left: 4em;
+}
+
+.subscribe > h1{
+    padding-top: 1em;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.subscribe > p{
+    font-size: 1.1rem;
+    opacity: 0.7;
+    padding-top: 1em;
+}
+
+.subscribe > form{
+    padding-top: 2em;
+}
+
+.sub-form > input{ 
+    background-color: var(--darkpurple);
+    padding: 1.25em 3em;
+    border-radius: 20px;
+    border: none;
+    color: var(--lightwhite);
+    background-image: url(../assets/Icons/mail.png);
+    background-repeat: no-repeat;
+}
+
+.sub-form > button{
+    color: var(--purple);
+    background-color: var(--white);
+    padding: 1em 2.5em;
+    border-radius: 30px;
+    border: none;
+    font-weight: 700;
+    font-size: 1rem;
+} 
+
