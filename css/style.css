@@ -369,7 +369,7 @@ Subscribe
 
 .sub-form > input{ 
     /* background-color: var(--darkpurple); */
-    padding: 1.35em 10em;
+    padding: 1.4em 10em;
     border-radius: 30px;
     margin-right: 1em;
     border: none;
@@ -378,9 +378,10 @@ Subscribe
     background-repeat: no-repeat; */
 }
 
-.sub-form > button{
+.sub-form > a{
     color: var(--purple);
     background-color: var(--white);
+    text-decoration: none;
     padding: 1.1em 2.5em;
     border-radius: 30px;
     border: none;
