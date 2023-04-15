@@ -218,8 +218,12 @@ Modern Cards
 ============= */
 
 .modern-card-1{
-    margin-top: 5em;
+    /* margin-top: 5em; */
     overflow: hidden;
+    padding-top: 5em;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 
@@ -246,20 +250,89 @@ Modern Cards
    left: 48em;
 }
 
-/* .right-dialogue > h1{
+.right-dialogue > h1{
     font-size: 4rem;
     font-weight: 600;
-} */
+}
+
+.right-dialogue > p{
+    margin-top: 1.5em;
+    margin-bottom: 4em;
+    font-size: 1rem;
+    opacity: 0.8;
+    letter-spacing: 1px;
+}
+
+.right-dialogue > a{
+    text-decoration: none;
+    padding: 1em 2em;
+    background-color: var(--purple);
+    color: var(--white);
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+/* ===========
+Modern Card 2
+============ */
+
+.modern-card-2{
+    margin-top: -20em;
+    overflow: hidden;
+    padding-top: 15em;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+.feat-img-2{
+    position: relative;
+    bottom: 38em;
+    left: 10.4em;
+    height: 500px;
+    width: 513px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.feat-img-2-back{
+    position: relative;
+    bottom: 30em;
+    left: 51em;
+    object-fit: cover;
+}
 
 
 
+.left-dialogue{
+   color: var(--black);
+   position: relative;
+   bottom: 3em;
+   left: 10em;
+}
 
+.left-dialogue > h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
 
+.left-dialogue > p{
+    margin-top: 1.5em;
+    margin-bottom: 4em;
+    font-size: 1rem;
+    opacity: 0.8;
+    letter-spacing: 1px;
+}
 
-
-
-
-
+.left-dialogue > a{
+    text-decoration: none;
+    padding: 1em 2em;
+    background-color: var(--purple);
+    color: var(--white);
+    border-radius: 30px;
+    font-weight: 500;
+}
 
 
 /* =========
@@ -267,6 +340,7 @@ Subscribe
 ===========*/
 
 .subscribe{
+    margin-top: -25em;
     color: var(--white);
     width: 90vw;
     height: 65vh;
@@ -295,7 +369,7 @@ Subscribe
 
 .sub-form > input{ 
     /* background-color: var(--darkpurple); */
-    padding: 1.25em 10em;
+    padding: 1.35em 10em;
     border-radius: 30px;
     margin-right: 1em;
     border: none;
@@ -307,13 +381,15 @@ Subscribe
 .sub-form > button{
     color: var(--purple);
     background-color: var(--white);
-    padding: 1em 2.5em;
+    padding: 1.1em 2.5em;
     border-radius: 30px;
     border: none;
     font-weight: 700;
     font-size: 1rem;
 } 
 
+
+  
 
 /* ============
 Footer
